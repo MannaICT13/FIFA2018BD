@@ -8,11 +8,46 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
+   
+    @IBOutlet var feature: [UIButton]!
+    
+    @IBAction func fifaAction(_ sender: UIButton) {
+        
+        
+        feature.forEach { (Button) in
+            UIView.animate(withDuration: 0.3, animations: {
+                Button.isHidden = !Button.isHidden
+                self.view.layoutIfNeeded()
+              
+                
+            })
+        }
+        
+        
+    }
+    
 
+    
+    
+    //for hiding the navigation bar
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: true)
+    }
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Background.png")!)
+       
     }
 
     override func didReceiveMemoryWarning() {
