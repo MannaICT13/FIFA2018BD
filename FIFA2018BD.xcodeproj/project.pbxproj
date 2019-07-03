@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2B385220B3398F000FD623 /* ViewControllerStadium.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B385120B3398F000FD623 /* ViewControllerStadium.swift */; };
+		CE2B385720B3599B000FD623 /* ViewControllerAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B385620B3599B000FD623 /* ViewControllerAbout.swift */; };
+		CEC2CC4320B3F3230000C76B /* CollectionViewCellStadium.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2CC4220B3F3230000C76B /* CollectionViewCellStadium.swift */; };
+		CED58F5520B1BCB200DCF065 /* ViewControllerMatchFixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED58F5420B1BCB200DCF065 /* ViewControllerMatchFixture.swift */; };
+		CED58F5720B1BD9E00DCF065 /* TableViewCellMatchFixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED58F5620B1BD9E00DCF065 /* TableViewCellMatchFixture.swift */; };
 		CEE4DD5A20B17CE900A356D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DD5920B17CE900A356D3 /* AppDelegate.swift */; };
 		CEE4DD5C20B17CE900A356D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DD5B20B17CE900A356D3 /* ViewController.swift */; };
 		CEE4DD5F20B17CE900A356D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE4DD5D20B17CE900A356D3 /* Main.storyboard */; };
@@ -14,6 +19,9 @@
 		CEE4DD6420B17CEA00A356D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE4DD6220B17CEA00A356D3 /* LaunchScreen.storyboard */; };
 		CEE4DD6F20B17CEA00A356D3 /* FIFA2018BDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DD6E20B17CEA00A356D3 /* FIFA2018BDTests.swift */; };
 		CEE4DD7A20B17CEA00A356D3 /* FIFA2018BDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DD7920B17CEA00A356D3 /* FIFA2018BDUITests.swift */; };
+		CEE4DD8820B17E8800A356D3 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DD8720B17E8800A356D3 /* CustomButton.swift */; };
+		CEE4DD9220B1961300A356D3 /* CollectionViewCellGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DD9120B1961300A356D3 /* CollectionViewCellGroups.swift */; };
+		CEE4DD9420B1977C00A356D3 /* ViewControllerGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DD9320B1977C00A356D3 /* ViewControllerGroups.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE2B385120B3398F000FD623 /* ViewControllerStadium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerStadium.swift; sourceTree = "<group>"; };
+		CE2B385620B3599B000FD623 /* ViewControllerAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAbout.swift; sourceTree = "<group>"; };
+		CEC2CC4220B3F3230000C76B /* CollectionViewCellStadium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellStadium.swift; sourceTree = "<group>"; };
+		CED58F5420B1BCB200DCF065 /* ViewControllerMatchFixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMatchFixture.swift; sourceTree = "<group>"; };
+		CED58F5620B1BD9E00DCF065 /* TableViewCellMatchFixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellMatchFixture.swift; sourceTree = "<group>"; };
 		CEE4DD5620B17CE900A356D3 /* FIFA2018BD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIFA2018BD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE4DD5920B17CE900A356D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE4DD5B20B17CE900A356D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,9 @@
 		CEE4DD7520B17CEA00A356D3 /* FIFA2018BDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIFA2018BDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE4DD7920B17CEA00A356D3 /* FIFA2018BDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIFA2018BDUITests.swift; sourceTree = "<group>"; };
 		CEE4DD7B20B17CEB00A356D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE4DD8720B17E8800A356D3 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		CEE4DD9120B1961300A356D3 /* CollectionViewCellGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellGroups.swift; sourceTree = "<group>"; };
+		CEE4DD9320B1977C00A356D3 /* ViewControllerGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerGroups.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +90,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE2B385020B338E9000FD623 /* Stadium */ = {
+			isa = PBXGroup;
+			children = (
+				CE2B385120B3398F000FD623 /* ViewControllerStadium.swift */,
+				CEC2CC4220B3F3230000C76B /* CollectionViewCellStadium.swift */,
+			);
+			path = Stadium;
+			sourceTree = "<group>";
+		};
+		CE2B385520B35980000FD623 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				CE2B385620B3599B000FD623 /* ViewControllerAbout.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		CED58F5220B1BC3400DCF065 /* MatchFixture */ = {
+			isa = PBXGroup;
+			children = (
+				CED58F5420B1BCB200DCF065 /* ViewControllerMatchFixture.swift */,
+				CED58F5620B1BD9E00DCF065 /* TableViewCellMatchFixture.swift */,
+			);
+			path = MatchFixture;
+			sourceTree = "<group>";
+		};
 		CEE4DD4D20B17CE900A356D3 = {
 			isa = PBXGroup;
 			children = (
+				CE2B385520B35980000FD623 /* About */,
+				CE2B385020B338E9000FD623 /* Stadium */,
+				CED58F5220B1BC3400DCF065 /* MatchFixture */,
+				CEE4DD9520B19D1000A356D3 /* Groups */,
 				CEE4DD5820B17CE900A356D3 /* FIFA2018BD */,
 				CEE4DD6D20B17CEA00A356D3 /* FIFA2018BDTests */,
 				CEE4DD7820B17CEA00A356D3 /* FIFA2018BDUITests */,
@@ -100,6 +146,7 @@
 				CEE4DD5920B17CE900A356D3 /* AppDelegate.swift */,
 				CEE4DD5B20B17CE900A356D3 /* ViewController.swift */,
 				CEE4DD5D20B17CE900A356D3 /* Main.storyboard */,
+				CEE4DD8720B17E8800A356D3 /* CustomButton.swift */,
 				CEE4DD6020B17CEA00A356D3 /* Assets.xcassets */,
 				CEE4DD6220B17CEA00A356D3 /* LaunchScreen.storyboard */,
 				CEE4DD6520B17CEA00A356D3 /* Info.plist */,
@@ -123,6 +170,15 @@
 				CEE4DD7B20B17CEB00A356D3 /* Info.plist */,
 			);
 			path = FIFA2018BDUITests;
+			sourceTree = "<group>";
+		};
+		CEE4DD9520B19D1000A356D3 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4DD9320B1977C00A356D3 /* ViewControllerGroups.swift */,
+				CEE4DD9120B1961300A356D3 /* CollectionViewCellGroups.swift */,
+			);
+			path = Groups;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +312,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED58F5520B1BCB200DCF065 /* ViewControllerMatchFixture.swift in Sources */,
+				CED58F5720B1BD9E00DCF065 /* TableViewCellMatchFixture.swift in Sources */,
+				CEE4DD9220B1961300A356D3 /* CollectionViewCellGroups.swift in Sources */,
 				CEE4DD5C20B17CE900A356D3 /* ViewController.swift in Sources */,
+				CE2B385220B3398F000FD623 /* ViewControllerStadium.swift in Sources */,
+				CE2B385720B3599B000FD623 /* ViewControllerAbout.swift in Sources */,
 				CEE4DD5A20B17CE900A356D3 /* AppDelegate.swift in Sources */,
+				CEE4DD9420B1977C00A356D3 /* ViewControllerGroups.swift in Sources */,
+				CEC2CC4320B3F3230000C76B /* CollectionViewCellStadium.swift in Sources */,
+				CEE4DD8820B17E8800A356D3 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +495,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MKCXG9MS9M;
 				INFOPLIST_FILE = FIFA2018BD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,7 +514,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MKCXG9MS9M;
 				INFOPLIST_FILE = FIFA2018BD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
