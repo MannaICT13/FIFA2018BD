@@ -13,7 +13,7 @@ class ViewControllerAbout: UIViewController {
     
     @IBAction func ActionAbout(_ sender: UIButton) {
     
-        UIApplication.shared.open(URL(string: "https://www.facebook.com/mcubesit/") as! URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string: "https://www.facebook.com/khaledhasan.manna/")!, options: [:], completionHandler: nil)
         
     }
     
