@@ -55,12 +55,16 @@ class ViewControllerMatchFixture: UIViewController,UITableViewDelegate,UITableVi
     
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        
         UNUserNotificationCenter.current().requestAuthorization(options: [.sound,.badge,.alert]) { didShow,Error in
     }
         loadNotification14()
         loadNotification15()
 }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

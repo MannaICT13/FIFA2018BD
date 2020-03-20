@@ -8,10 +8,12 @@
 
 import UIKit
 @IBDesignable
+
 class CustomButton: UIButton {
 
     
     @IBInspectable var alertButton:Bool = false{
+        
         didSet{
             if(alertButton){
                 
